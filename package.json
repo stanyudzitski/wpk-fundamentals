@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/stanyudzitski/wpk-fundamentals/issues"
   },
-  "homepage": "https://github.com/stanyudzitski/wpk-fundamentals#readme"
+  "homepage": "https://github.com/stanyudzitski/wpk-fundamentals#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
 }

@@ -62,3 +62,6 @@ dist/
 
 #JetBrains files
 .idea
+
+# Package lock file
+package-lock.json

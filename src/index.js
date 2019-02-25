@@ -2,6 +2,7 @@ import nav from './nav';
 import { top, footer } from './footer';
 import makeButton from './button';
 import { makeColorStyle } from './button-styles';
+import './footer.css';
 
 const button = makeButton('mx-button');
 document.body.appendChild(button);

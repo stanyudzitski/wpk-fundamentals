@@ -12,9 +12,14 @@ module.exports = ({ mode, presets } = { mode: 'production', presets: [] }) => {
         rules: [
           {
             test: /\.jpe?g$/,
-            use: [{loader: "url-loader", options: {
-              limit: 5000
-            }}]
+            use: [
+              {
+                loader: 'url-loader',
+                options: {
+                  limit: 5000
+                }
+              }
+            ]
           }
         ]
       },

@@ -6,7 +6,7 @@ import { makeColorStyle } from './button-styles';
 const button = makeButton('mx-button');
 document.body.appendChild(button);
 document.body.appendChild(footer);
-button.style = makeColorStyle('cyan');
+button.style = makeColorStyle('brown');
 
 button.addEventListener('click', function(e) {
   clickFunction(e);

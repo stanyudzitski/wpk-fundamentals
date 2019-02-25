@@ -1,3 +1,4 @@
+import './footer.css';
 import { red, blue } from './button-styles.js';
 
 const top = document.createElement('div');
@@ -9,6 +10,7 @@ bottom.innerText = 'bottom of the footer';
 bottom.style = blue;
 
 const footer = document.createElement('footer');
+footer.style = 'width';
 footer.appendChild(top);
 footer.appendChild(bottom);
 
